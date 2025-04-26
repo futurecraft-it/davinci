@@ -1,0 +1,17 @@
+token = ""
+
+[presence]
+status = "online"
+afk = false
+
+[presence.activity]
+name = "mc.futurecraft.it"
+type = 0
+state = "Aim to the future."
+url = "https://futurecraft.it"
+
+[commands]
+register = false
+
+[guild.channels]
+welcome = "1237466831510442007"

@@ -1,0 +1,24 @@
+{
+  "name": "davinci",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run --watch ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "confbox": "^0.1.8",
+    "consola": "^3.2.3",
+    "discord.js": "^14.16.3",
+    "fs": "^0.0.1-security",
+    "reflect-metadata": "^0.2.2",
+    "zlib-sync": "^0.1.9",
+    "zod": "^3.23.8"
+  }
+}
