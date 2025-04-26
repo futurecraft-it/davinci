@@ -6,7 +6,7 @@ import InteractionCreateEvent from "@/events/InteractionCreate";
 
 import { Events } from "discord.js";
 
-const client = new Client("./config.toml", {
+const client = new Client("./config.local.toml", {
     intents: ["Guilds", "GuildMessages"]
 });
 
